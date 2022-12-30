@@ -1,87 +1,21 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-	<meta charset="UTF-8" />
-	<title>judul_utama</title>
-	<meta name="title" content="judul_utama" />
-	<meta name="description" content="deskripsi_utama" />
-	<meta name="keywords" content="keyword_utama" />
-	<meta name="google" content="notranslate" />
-	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1" />
-	<meta name="robots" content="index, follow" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<!-- Open Graph -->
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="judul_utama" />
-	<meta property="og:description" content="deskripsi_utama" />
-	<meta property="og:image" content="url_ogp" />
-	<meta property="og:locale" content="id_ID" />
-	<meta property="og:site_name" content="judul_utama" />
-	<meta property="og:url" content="url_utama" />
-	<!-- Twitter Card -->
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:title" content="judul_utama" />
-	<meta name="twitter:description" content="deskripsi_utama" />
-	<meta name="twitter:image" content="url_ogp" />
-	<meta name="twitter:site" content="GrowingMail" />
-	<!-- Canonical -->
-	<link rel="canonical" href="url_utama" />
-	<!-- Favicon -->
-	<link rel="shortcut icon" sizes="16x16 32x32 48x48" href="url_icon favicon.ico" />
-	<link rel="icon" type="image/png" sizes="32x32" href="url_icon favicon.png" />
-	<link rel="apple-touch-icon" href="url_icon favicon.png" />
-	<meta name="msapplication-TileImage" content="url_icon favicon.png" />
-	<!-- Status Bar -->
-	<meta name="apple-mobile-web-app-title" content="judul_utama" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="default" />
-	<meta name="apple-mobile-web-app-status-bar" content="#fff" />
-	<meta name="msapplication-TileColor" content="#fff" />
-	<meta name="theme-color" content="#fff" />
-	<!-- System Theme -->
-	<meta name="color-scheme" content="light dark" />
-	<!-- Main -->
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
-		body{font-family:'DM Sans',sans-serif}
-		a{transition:all .25s ease}
-	</style>
-	<script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-<body>
+---
+layout: default
+---
 
 <header>
-	<section class="my-5">
-		<div class="lg:container mx-auto px-7 lg:px-10">
-			Laboris dolor id ut officia non ea veniam commodo labore pariatur aute consequat officia in dolore voluptate deserunt.
-		</div>
-	</section>
+	{% include header.html %}
 </header>
 
 <main>
-	<section class="my-5">
-		<div class="lg:container mx-auto px-7 lg:px-10">
-			Velit ea cillum irure non sit ad magna magna cupidatat excepteur.
-		</div>
-	</section>
+	{% include biodata.html %}
+	{% include expertise.html %}
+	{% include experience.html %}
 </main>
 
 <footer>
-	<section class="py-10">
-		<div class="lg:container mx-auto px-7 lg:px-10">
-			<center class="opacity-50">
-				Copyright &copy; 2023 &middot; All Rights Reserved
-			</center>
-		</div>
-	</section>
+	{% include footer.html %}
 </footer>
 
 <slot>
-	<script>
-		// 
-	</script>
+	{% include slot.html %}
 </slot>
-
-</body>
-</html>
