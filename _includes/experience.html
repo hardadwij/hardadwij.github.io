@@ -1,5 +1,36 @@
-<section class="my-5">
+<section class="my-16">
 	<div class="lg:container mx-auto px-7 lg:px-10">
-		experience
+
+		<h2 class="text-3xl lg:text-4xl md:text-center font-bold">Experiences</h2>
+
+		<div class="md:w-fit mx-auto">
+			{% for item in site.experience %}
+			<article class="flex items-start gap-5 my-10 last:mb-0">
+				{% if item.icon %}
+				<img src="{{ item.icon }}" alt="Icon" width="75" height="75" loading="lazy" class="object-contain rounded-xl shadow-xl min-w-[75px]" />
+				{% endif %}
+
+				<div>
+					{% if item.title %}
+					<h3 class="font-bold text-xl">{{ item.title }}</h3>
+					{% endif %}
+
+					{% if item.description %}
+					<p class="opacity-70 max-w-[40ch]">{{ item.description }}</p>
+					{% endif %}
+
+					{% if item.year %}
+					<div class="opacity-50 text-sm">
+						{{ item.year }}
+						{% if item.duration %}
+						<span>&nbsp;&middot; &nbsp;{{ item.duration }}</span>
+						{% endif %}
+					</div>
+					{% endif %}
+				</div>
+			</article>
+			{% endfor %}
+		</div>
+
 	</div>
 </section>

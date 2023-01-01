@@ -1,0 +1,38 @@
+<section class="bg-sky-600 text-white py-14">
+	<div class="lg:container mx-auto px-7 lg:px-10">
+
+		<h2 class="text-3xl lg:text-4xl md:text-center font-bold">Education</h2>
+
+		<div class="md:w-fit mx-auto py-5">
+			{% for item in site.education %}
+			<article class="flex item-start gap-5 my-5 last:mb-0">
+				{% if item.icon %}
+				<img src="{{ item.icon }}" alt="Icon" width="75" height="75" loading="lazy" class="object-contain rounded-xl shadow-xl" />
+				{% endif %}
+
+				<div>
+					{% if item.title %}
+					<h3 class="font-bold text-xl">{{ item.title }}</h3>
+					{% endif %}
+
+
+					{% if item.bachelor %}
+					<div class="opacity-70">
+						{{ item.bachelor }}
+						{% if item.gpa %}
+						<span> &middot; GPA {{ item.gpa }}</span>
+						{% endif %}
+					</div>
+					{% endif %}
+
+
+					{% if item.year %}
+					<p class="opacity-70 text-sm">{{ item.year }}</p>
+					{% endif %}
+				</div>
+			</article>
+			{% endfor %}
+		</div>
+
+	</div>
+</section>

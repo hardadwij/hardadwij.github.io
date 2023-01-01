@@ -2,15 +2,45 @@
 # This file contains configuration flags to customize your site
 #
 
-name: Hardani Dwi Jayanti
-
-description: Do exercitation qui ea irure et dolor sint minim magna esse amet
-
-keywords: hrd, human, resource, development, personalia, karir
-
+url: https://hardadwij.github.io
 theme_color: '#fff'
 
-url: "https://hardadwij.github.io"
+keywords: hrd, human, resource, development, personalia, karir, recruiter
+
+name: Hardani Dwi Jayanti
+position: Human Resource Specialist
+description: Ad elit sed quis enim dolore dolore aliqua minim voluptate consectetur ea proident non aute anim ut duis. Lorem ipsum eu dolore proident ut veniam qui ex id officia eu mollit ex ea non qui mollit quis.
+location: Sleman, Yogyakarta
+phone: +62 878 3861 0808
+email: hardadwij@gmail.com
+linkedin: https://www.linkedin.com/in/hardadwij/
+
+education:
+  - title: Universitas Ahmad Dahlan
+    bachelor: S1 Psikologi
+    gpa: 3.05
+    year: 2014-2018
+    icon: https://degiam.github.io/assets/img/avatar-degiam.jpeg
+
+expertise:
+  - title: aaa
+    description: Ut consequat occaecat excepteur in in in sit nulla ut tempor mollit exercitation.
+    icon: https://degiam.github.io/assets/img/avatar-degiam.jpeg
+  - title: bbb
+    description: Reprehenderit reprehenderit tempor qui aliqua aliquip voluptate proident proident consectetur nisi voluptate.
+    icon: 
+
+experience:
+  - title: Asta Bumi Cipta
+    description: Dolore dolore et sint sit consectetur ut aute elit ullamco proident ad sint aliqua nulla.
+    duration: 1 year
+    year: 2021-2022
+    icon: https://degiam.github.io/assets/img/avatar-degiam.jpeg
+  - title: JogjaCamp
+    description: Ut nisi eu velit ut ea dolor consequat sint nisi sed.
+    duration: 1 year
+    year: 2020-2021
+    icon: https://degiam.github.io/assets/img/avatar-degiam.jpeg
 
 
 #
