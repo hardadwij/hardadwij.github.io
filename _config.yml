@@ -5,42 +5,110 @@
 url: https://hardadwij.github.io
 theme_color: '#fff'
 
-keywords: hrd, human, resource, development, personalia, karir, recruiter
+keywords: hrd, human, resource, development, personalia, karir, recruiter, sdm
 
 name: Hardani Dwi Jayanti
 position: Human Resource Specialist
 description: Ad elit sed quis enim dolore dolore aliqua minim voluptate consectetur ea proident non aute anim ut duis. Lorem ipsum eu dolore proident ut veniam qui ex id officia eu mollit ex ea non qui mollit quis.
-location: Sleman, Yogyakarta
+location: 
 phone: +62 878 3861 0808
 email: hardadwij@gmail.com
+blog: https://hardadj.blogspot.com/
 linkedin: https://www.linkedin.com/in/hardadwij/
+avatar: https://degiam.github.io/assets/img/avatar-degiam.jpeg
 
 education:
+  - title: Universitas Mercu Buana
+    bachelor: S2 Psikologi
+    location: Yogyakarta
+    gpa: 3.9
+    year: 2021-2023
+    icon: assets/img/education/umby.jpeg
   - title: Universitas Ahmad Dahlan
     bachelor: S1 Psikologi
-    gpa: 3.05
+    location: Yogyakarta
+    gpa: 3.1
     year: 2014-2018
-    icon: https://degiam.github.io/assets/img/avatar-degiam.jpeg
+    icon: assets/img/education/uad.jpeg
 
 expertise:
   - title: aaa
-    description: Ut consequat occaecat excepteur in in in sit nulla ut tempor mollit exercitation.
+    description: Ut consequat occaecat excepteur in in in sit nulla ut tempor mollit exercitation. Non exercitation nisi proident in ut consectetur amet aliqua ullamco culpa.
     icon: https://degiam.github.io/assets/img/avatar-degiam.jpeg
   - title: bbb
     description: Reprehenderit reprehenderit tempor qui aliqua aliquip voluptate proident proident consectetur nisi voluptate.
     icon: 
 
 experience:
+  - title: Cybers Global Indonesia
+    description: Sed tempor proident velit eu deserunt esse laboris aute irure. Aute ut excepteur in eiusmod nostrud cupidatat esse nulla do esse.
+    position: Human Resources Generalist
+    status: Freelance
+    duration: 5 months
+    year: 2022
+    icon: assets/img/corporate/cgi.jpeg
   - title: Asta Bumi Cipta
-    description: Dolore dolore et sint sit consectetur ut aute elit ullamco proident ad sint aliqua nulla.
-    duration: 1 year
+    description:
+      - point: Recruitment and selection
+      - point: Presents psychological test, scoring, interpretation
+      - point: Employee employment contracts
+      - point: BPJS and Jamsostek management
+      - point: Filling employee database
+      - point: Payroll
+      - point: Employee attendance recap
+      - point: Employee development
+      - point: Create Job Descriptions and SOP
+      - point: Legal (WLKP, NPWP BU)
+    position: Human Resources Generalist
+    status: Full Time
+    duration: 9 months
     year: 2021-2022
-    icon: https://degiam.github.io/assets/img/avatar-degiam.jpeg
+    icon: assets/img/corporate/asta.jpeg
   - title: JogjaCamp
-    description: Ut nisi eu velit ut ea dolor consequat sint nisi sed.
-    duration: 1 year
+    description:
+      - point: Recruitment and selection
+      - point: Presents psychological test, scoring, interpretation
+      - point: Employee employment contracts (PKWT)
+      - point: BPJS and Jamsostek management
+      - point: Licensing arrangements at the employment agency
+      - point: Filling employee database
+      - point: Payroll
+      - point: Employee attendance recap
+      - point: Employee development
+      - point: Create Job Descriptions and SOP
+      - point: Administration of official visits
+      - point: Legal (ISO 27001, WLKP)
+      - point: Inventaris (GA)
+    position: Human Resources Management
+    status: Full Time
+    duration: 1 year 4 months
     year: 2020-2021
-    icon: https://degiam.github.io/assets/img/avatar-degiam.jpeg
+    icon: assets/img/corporate/jc.jpeg
+  - title: Syncore
+    description:
+      - point: Creating job vacancies, screening candidates, calling candidates, tests, interviews, employee induction, employment contracts
+      - point: Administration
+      - point: Event Organizer
+      - point: employee development
+      - point: Evaluate employee performance
+      - point: Inventaris
+      - point: Recap the employee's present data and analyze the workload
+    position: Human Resources Specialist
+    status: Full Time
+    duration: 1 year
+    year: 2019
+    icon: assets/img/corporate/syncore.jpeg
+  - title: Archira Consultans
+    description:
+      - point: Manage BPJS
+      - point: Administration
+      - point: Make SOP
+      - point: Creating job vacancies, screening candidates, calling candidates, tests, interviews.
+    position: SDM & Operasional
+    status: Internship
+    duration: 1 month
+    year: 2019
+    icon: assets/img/corporate/archira.jpeg
 
 
 #

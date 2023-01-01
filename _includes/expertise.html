@@ -5,12 +5,12 @@
 
 		<div class="grid md:grid-cols-2 xl:grid-cols-3 gap-10 py-5">
 			{% for item in site.expertise %}
-			<article class="flex item-start gap-5 my-5">
+			<article class="flex items-start gap-5 my-5">
 				{% if item.icon %}
-				<img src="{{ item.icon }}" alt="Icon" width="75" height="75" loading="lazy" class="object-contain rounded-xl shadow-xl" />
+				<img src="{{ item.icon }}" alt="Icon" width="75" height="75" loading="lazy" class="object-contain rounded-xl shadow-xl min-w-[75px]" />
 				{% endif %}
 
-				<div>
+				<div class="break-words">
 					{% if item.title %}
 					<h3 class="font-bold text-lg mb-1">{{ item.title }}</h3>
 					{% endif %}

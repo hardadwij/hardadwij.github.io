@@ -3,18 +3,17 @@
 
 		<h2 class="text-3xl lg:text-4xl md:text-center font-bold">Education</h2>
 
-		<div class="md:w-fit mx-auto py-5">
+		<div class="md:w-fit mx-auto">
 			{% for item in site.education %}
-			<article class="flex item-start gap-5 my-5 last:mb-0">
+			<article class="flex items-start gap-5 my-10 last:mb-0">
 				{% if item.icon %}
-				<img src="{{ item.icon }}" alt="Icon" width="75" height="75" loading="lazy" class="object-contain rounded-xl shadow-xl" />
+				<img src="{{ item.icon }}" alt="Icon" width="75" height="75" loading="lazy" class="object-contain rounded-xl shadow-xl min-w-[75px]" />
 				{% endif %}
 
-				<div>
+				<div class="break-words max-w-[35ch]">
 					{% if item.title %}
 					<h3 class="font-bold text-xl">{{ item.title }}</h3>
 					{% endif %}
-
 
 					{% if item.bachelor %}
 					<div class="opacity-70">
@@ -25,6 +24,9 @@
 					</div>
 					{% endif %}
 
+					{% if item.location %}
+					<p class="opacity-70">{{ item.location }}</p>
+					{% endif %}
 
 					{% if item.year %}
 					<p class="opacity-70 text-sm">{{ item.year }}</p>

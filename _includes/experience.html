@@ -7,27 +7,67 @@
 			{% for item in site.experience %}
 			<article class="flex items-start gap-5 my-10 last:mb-0">
 				{% if item.icon %}
-				<img src="{{ item.icon }}" alt="Icon" width="75" height="75" loading="lazy" class="object-contain rounded-xl shadow-xl min-w-[75px]" />
+				<img src="{{ item.icon }}" alt="Icon" width="85" height="85" loading="lazy" class="object-contain rounded-xl shadow-xl min-w-[85px] border border-zinc-100" />
 				{% endif %}
 
-				<div>
+				<div class="break-words w-full md:min-w-[400px] max-w-[35ch]">
+					{% if item.status %}
+						{% if item.status == 'Full Time' %}
+						<div class="inline-block text-xs py-1 px-2 mb-1 rounded-md text-white bg-indigo-500">{{ item.status }}</div>
+						{% endif %}
+						{% if item.status == 'Part Time' %}
+						<div class="inline-block text-xs py-1 px-2 mb-1 rounded-md text-white bg-sky-500">{{ item.status }}</div>
+						{% endif %}
+						{% if item.status == 'Freelance' %}
+						<div class="inline-block text-xs py-1 px-2 mb-1 rounded-md text-white bg-teal-500">{{ item.status }}</div>
+						{% endif %}
+						{% if item.status == 'Internship' %}
+						<div class="inline-block text-xs py-1 px-2 mb-1 rounded-md text-white bg-amber-500">{{ item.status }}</div>
+						{% endif %}
+					{% endif %}
+
 					{% if item.title %}
 					<h3 class="font-bold text-xl">{{ item.title }}</h3>
 					{% endif %}
 
-					{% if item.description %}
-					<p class="opacity-70 max-w-[40ch]">{{ item.description }}</p>
+					{% if item.position %}
+					<p class="my-1">{{ item.position }}</p>
 					{% endif %}
 
 					{% if item.year %}
-					<div class="opacity-50 text-sm">
+					<div class="opacity-50 text-sm my-1">
 						{{ item.year }}
 						{% if item.duration %}
 						<span>&nbsp;&middot; &nbsp;{{ item.duration }}</span>
 						{% endif %}
 					</div>
 					{% endif %}
+
+					{% if item.description %}
+					<div class="collapsed hidden">
+						{% if item.description.first %}
+							<ul class="opacity-70 list-disc pl-5">
+								{% for list in item.description %}
+								<li class="my-1">{{ list.point }}</li>
+								{% endfor %}
+							</ul>
+						{% else %}
+							<p class="opacity-70 my-1">{{ item.description }}</p>
+						{% endif %}
+					</div>
+					{% endif %}
 				</div>
+
+				{% if item.description %}
+				<div class="mt-6 ml-auto [&_.active]:text-white [&_.active]:bg-zinc-700">
+					<button type="button" class="w-9 h-9 rounded-full flex items-center justify-center" data-toggle="collapse">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5 mt-px">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+						</svg>
+						<span class="sr-only">Toggle</span>
+					</button>
+				</div>
+				{% endif %}
 			</article>
 			{% endfor %}
 		</div>

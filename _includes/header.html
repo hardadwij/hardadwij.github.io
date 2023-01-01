@@ -2,7 +2,9 @@
 	<div class="lg:container mx-auto px-7 lg:px-10">
 
 		<div class="grid md:flex items-center gap-8 md:gap-10 lg:gap-16 w-fit mx-auto">
-			<img src="https://degiam.github.io/assets/img/avatar-degiam.jpeg" alt="avatar" width="300" height="300" class="object-cover rounded-full shadow-2xl max-md:mx-auto" />
+			{% if site.avatar %}
+			<img src="{{ site.avatar }}" alt="avatar" width="300" height="300" class="object-cover rounded-full shadow-2xl max-md:mx-auto" />
+			{% endif %}
 
 			{% include biodata.html %}
 		</div>
