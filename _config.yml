@@ -9,7 +9,7 @@ keywords: hrd, human, resource, development, personalia, karir, recruiter, sdm
 
 name: Hardani Dwi Jayanti
 position: Human Resource Specialist
-description: Ad elit sed quis enim dolore dolore aliqua minim voluptate consectetur ea proident non aute anim ut duis. Lorem ipsum eu dolore proident ut veniam qui ex id officia eu mollit ex ea non qui mollit quis.
+description: I am majoring in Psychology and I am interested in Industrial & Organizational. I am used to recruiting employees, payroll, people & development, GA Administration, HR Administration, BPJS, psychology test, training, counseling process, HRIS Talenta, etc.
 location: 
 phone: +62 878 3861 0808
 email: hardadwij@gmail.com
@@ -18,24 +18,24 @@ linkedin: https://www.linkedin.com/in/hardadwij/
 avatar: assets/img/avatar.jpeg
 
 education:
-  - title: Universitas Mercu Buana
-    bachelor: S2 Psikologi
+  - title: Mercu Buana University
+    bachelor: Master of Psychology
     location: Yogyakarta
-    gpa: 3.9
+    gpa: 
     year: 2021-2023
     icon: assets/img/education/umby.jpeg
-  - title: Universitas Ahmad Dahlan
-    bachelor: S1 Psikologi
+  - title: Ahmad Dahlan University
+    bachelor: Bachelor of Psychology
     location: Yogyakarta
-    gpa: 3.1
+    gpa: 
     year: 2014-2018
     icon: assets/img/education/uad.jpeg
 
 expertise:
-  - title: aaa
+  - title: Keahlian satu
     description: Ut consequat occaecat excepteur in in in sit nulla ut tempor mollit exercitation. Non exercitation nisi proident in ut consectetur amet aliqua ullamco culpa.
-    icon: https://degiam.github.io/assets/img/avatar-degiam.jpeg
-  - title: bbb
+    icon: assets/img/favicon.png
+  - title: Keahlian dua
     description: Reprehenderit reprehenderit tempor qui aliqua aliquip voluptate proident proident consectetur nisi voluptate.
     icon: 
 
