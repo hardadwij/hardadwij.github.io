@@ -1,3 +1,4 @@
+{% if site.experience %}
 <section class="my-16">
 	<div class="lg:container mx-auto px-7 lg:px-10">
 
@@ -18,12 +19,19 @@
 						{% if item.status == 'Part Time' %}
 						<div class="inline-block text-xs py-1 px-2 mb-1 rounded-md text-white bg-sky-500">{{ item.status }}</div>
 						{% endif %}
+						{% if item.status == 'Contract' %}
+						<div class="inline-block text-xs py-1 px-2 mb-1 rounded-md text-white bg-rose-500">{{ item.status }}</div>
+						{% endif %}
 						{% if item.status == 'Freelance' %}
 						<div class="inline-block text-xs py-1 px-2 mb-1 rounded-md text-white bg-teal-500">{{ item.status }}</div>
 						{% endif %}
 						{% if item.status == 'Internship' %}
 						<div class="inline-block text-xs py-1 px-2 mb-1 rounded-md text-white bg-amber-500">{{ item.status }}</div>
 						{% endif %}
+					{% endif %}
+
+					{% if item.work %}
+					<div class="inline-block text-xs py-1 px-2 mb-1 rounded-md bg-zinc-200">{{ item.work }}</div>
 					{% endif %}
 
 					{% if item.title %}
@@ -46,7 +54,7 @@
 					{% if item.description %}
 					<div class="collapsed hidden">
 						{% if item.description.first %}
-							<ul class="opacity-70 list-disc pl-5">
+							<ul class="opacity-70 list-disc pl-5 mt-2">
 								{% for list in item.description %}
 								<li class="my-1">{{ list.point }}</li>
 								{% endfor %}
@@ -74,3 +82,4 @@
 
 	</div>
 </section>
+{% endif %}

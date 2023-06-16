@@ -32,20 +32,32 @@ education:
     icon: assets/img/education/uad.jpeg
 
 expertise:
-  - title: Keahlian satu
-    description: Ut consequat occaecat excepteur in in in sit nulla ut tempor mollit exercitation. Non exercitation nisi proident in ut consectetur amet aliqua ullamco culpa.
-    icon: assets/img/favicon.png
-  - title: Keahlian dua
-    description: Reprehenderit reprehenderit tempor qui aliqua aliquip voluptate proident proident consectetur nisi voluptate.
-    icon: 
 
 experience:
+  - title: Skill Academy by Ruangguru
+    description: 
+      - point: Help open and close webinar events
+      - point: Help display the material needed by the instructor
+      - point: Direct and manage webinar attendees
+      - point: Assess the results of the participants' assignments
+    position: Instructor Assistant
+    status: Contract
+    work: Remote
+    duration: 
+    year: May 2023 - Now
+    icon: assets/img/corporate/skill-academy.jpeg
   - title: Cybers Global Indonesia
-    description: Sed tempor proident velit eu deserunt esse laboris aute irure. Aute ut excepteur in eiusmod nostrud cupidatat esse nulla do esse.
+    description: 
+      - point: Recruitment end to end
+      - point: Public Relation with mitra
+      - point: Administration
+      - point: Psychological test
+      - point: Analyze the workload
     position: Human Resources Generalist
     status: Freelance
-    duration: 5 months
-    year: 2022
+    work: Remote
+    duration: 
+    year: Sep 2022 - Jan 2023
     icon: assets/img/corporate/cgi.jpeg
   - title: Asta Bumi Cipta
     description:
@@ -61,8 +73,8 @@ experience:
       - point: Legal (WLKP, NPWP BU)
     position: Human Resources Generalist
     status: Full Time
-    duration: 9 months
-    year: 2021-2022
+    duration: 
+    year: Aug 2021 - Apr 2022
     icon: assets/img/corporate/asta.jpeg
   - title: JogjaCamp
     description:
@@ -81,8 +93,8 @@ experience:
       - point: Inventaris (GA)
     position: Human Resources Management
     status: Full Time
-    duration: 1 year 4 months
-    year: 2020-2021
+    duration: 
+    year: Jan 2020 - Apr 2021
     icon: assets/img/corporate/jc.jpeg
   - title: Syncore
     description:
@@ -95,8 +107,8 @@ experience:
       - point: Recap the employee's present data and analyze the workload
     position: Human Resources Specialist
     status: Full Time
-    duration: 1 year
-    year: 2019
+    duration: 
+    year: Jan 2019 - Dec 2019
     icon: assets/img/corporate/syncore.jpeg
   - title: Archira Consultans
     description:
@@ -106,8 +118,8 @@ experience:
       - point: Creating job vacancies, screening candidates, calling candidates, tests, interviews.
     position: SDM & Operasional
     status: Internship
-    duration: 1 month
-    year: 2019
+    duration: 
+    year: Jan 2019
     icon: assets/img/corporate/archira.jpeg
 
 
