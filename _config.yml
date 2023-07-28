@@ -9,7 +9,7 @@ keywords: hrd, human, resource, development, personalia, karir, recruiter, sdm
 
 name: Hardani Dwi Jayanti
 position: Human Resource Specialist
-description: I am majoring in Psychology and I am interested in Industrial & Organizational. I am used to recruiting employees, payroll, people & development, GA Administration, HR Administration, BPJS, psychology test, training, counseling process, HRIS Talenta, etc.
+description: I'm majoring in Psychology and interested in Industrial & Organizational. I'm used to recruiting employees, payroll, people & development, GA Administration, HR Administration, BPJS, psychology test, training, counseling process, HRIS Talenta, etc.
 location: 
 phone: +62 878 3861 0808
 email: hardadwij@gmail.com
@@ -46,6 +46,17 @@ experience:
     duration: 
     year: May 2023 - Now
     icon: assets/img/corporate/skill-academy.jpeg
+  - title: Hacklab Rocks
+    description: 
+      - point: Sharing sessions with students
+      - point: Counseling with participants related to the world of work (one to one)
+      - point: Participant monitoring
+    position: Educational Mentor
+    status: Freelance
+    work: Remote
+    duration: 
+    year: July 2023
+    icon: assets/img/corporate/hacklab.jpeg
   - title: Cybers Global Indonesia
     description: 
       - point: Recruitment end to end
